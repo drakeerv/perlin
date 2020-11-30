@@ -11,7 +11,7 @@ Create perlin noise in 1D, 2D, and 3D!
 - Octaves
 - Seed capability
 - Tested
-- Completly written in python
+- Completely written in python
 - No dependencies
 
 ## Usage
