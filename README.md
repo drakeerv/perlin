@@ -19,14 +19,14 @@ This library can be used for generating random terrain for games or getting perl
 
 ## Example
 
+```python
 import perlin
 
 p = perlin.Perlin(6789)
 
-```python
-print(p.one(0))
-print(p.two(0, 0))
-print(p.three(0, 0, 0))
+print(p.one(0)) #1D
+print(p.two(0, 0)) #2D
+print(p.three(0, 0, 0)) #3D
 ```
 
 ## Know limitations
