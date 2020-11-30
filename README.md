@@ -26,7 +26,7 @@ p = perlin.Perlin(6789) #6789 is the seed
 
 print(p.one(0)) #1D, 0 is the X value
 print(p.two(0, 1)) #2D, 0 is the X value and 1 is the Y value
-print(p.three(0, 2, 3)) #3D,  0 is the X value, 1 is the Y value, 3 is the Z value
+print(p.three(0, 1, 2)) #3D,  0 is the X value, 1 is the Y value, 2 is the Z value
 ```
 
 ## Know limitations
