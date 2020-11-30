@@ -22,11 +22,11 @@ This library can be used for generating random terrain for games or getting perl
 ```python
 import perlin
 
-p = perlin.Perlin(6789)
+p = perlin.Perlin(6789) #6789 is the seed
 
-print(p.one(0)) #1D
-print(p.two(0, 0)) #2D
-print(p.three(0, 0, 0)) #3D
+print(p.one(0)) #1D, 0 is the X value
+print(p.two(0, 1)) #2D, 0 is the X value and 1 is the Y value
+print(p.three(0, 2, 3)) #3D,  0 is the X value, 1 is the Y value, 3 is the Z value
 ```
 
 ## Know limitations
