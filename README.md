@@ -23,9 +23,11 @@ import perlin
 
 p = perlin.Perlin(6789)
 
-print(p.one(0)) #1D perlin noise
-print(p.two(0, 0)) #2D perlin noise
-print(p.three(0, 0, 0)) #3D perlin  noise
+```python
+print(p.one(0))
+print(p.two(0, 0))
+print(p.three(0, 0, 0))
+```
 
 ## Know limitations
 
