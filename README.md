@@ -8,6 +8,7 @@ Create perlin noise in 1D, 2D, and 3D!
 - 1D perlin noise
 - 2D perlin noise
 - 3D perlin noise
+- Octaves
 - Seed capability
 - Tested
 - Completly written in python
