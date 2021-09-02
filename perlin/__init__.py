@@ -32,7 +32,7 @@ print(p.three(0, 1, 2)) #3D,  0 is the X value, 1 is the Y value, 2 is the Z val
 
 print(p.one_octave(0)) #Use this for octaves, you can ajust the octave variables but this gives you 2 octaves
 
-## Know limitations
+## Known limitations
 
 Slower than noise library
 Slower with octaves (Work in progress)
