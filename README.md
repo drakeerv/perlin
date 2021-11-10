@@ -16,7 +16,7 @@ Create perlin noise in 1D, 2D, and 3D!
 
 ## Usage
 
-This library can be used for generating random terrain for games or getting perlin noise. This library also supports octaves.
+This library can be used for generating random terrain for games or getting perlin noise. This library also supports octaves. It outputs a number from -10 to 10.
 
 ## Example
 
