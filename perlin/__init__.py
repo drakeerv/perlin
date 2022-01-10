@@ -97,7 +97,7 @@ class Perlin:
 	def __init__(self, seed):
 		random.seed(seed)
 		
-		self.m = seed; p = list(range(self.m)); random.shuffle(p); self.p = p+p
+		self.m = seed; p = list(range(self.m)); random.Random(seed).shuffle(p); self.p = p+p
 		p = self.perlins = tuple((1/i,i) for i in (16,20,22,31,32,64,512) for j in range(2))
 		self.avg = 8*len(p)/sum(f+i for f,i in p)
 
